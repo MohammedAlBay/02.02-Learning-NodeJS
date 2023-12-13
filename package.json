@@ -1,0 +1,13 @@
+{
+  "name": "02.learning-nodejs",
+  "version": "1.0.0",
+  "description": "- Repository: `learning-node`\r - Type of Challenge: `learning`\r - Duration: `4-5 days`\r - Deployment strategy: `Github pages | Netlify`\r - Team challenge : `solo`",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
