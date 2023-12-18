@@ -23,3 +23,13 @@ console.log(path.parse(__filename).base);
 
 // Concatenate paths
 console.log(path.join(__dirname, "test", "hello.html"));
+
+// Importing filesystem module
+import fs from "fs"; 
+
+// Create folder
+try {
+  fs.mkdirSync(path.join(__dirname, "test"));
+} catch (error) {
+
+}
